@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guru Bhat - AI & Billing Systems Enthusiast">
+    <meta property="og:title" content="Guru Bhat - AI & Billing Systems Enthusiast">
+    <meta property="og:description" content="Personal website of Guru Bhat - Ex-Developer, AI Tinkerer">
+    <meta property="og:type" content="website">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" as="style">
+    <link rel="icon" href="favicon.ico">
+    <title>Guru Bhat</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+        
+        :root {
+            --primary: #00e89b;
+            --background: #000000;
+            --text: #00e89b;
+            --hover-bg: rgba(0, 232, 155, 0.1);
+            --secondary: rgba(0, 232, 155, 0.6);
+            --dots: rgba(0, 232, 155, 0.3);
+        }
+
+        @media (prefers-color-scheme: light) {
+            :root {
+                --primary: #007a58;
+                --background: #ffffff;
+                --text: #1a1a1a;
+                --hover-bg: rgba(0, 122, 88, 0.1);
+                --secondary: rgba(0, 122, 88, 0.6);
+                --dots: rgba(0, 122, 88, 0.3);
+            }
+        }
+
+        body {
+            font-family: 'Space Mono', monospace;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            margin-bottom: 2.5rem;
+        }
+
+        h1 {
+            font-size: clamp(1.8rem, 5vw, 2.2rem);
+            margin: 0;
+            letter-spacing: -1px;
+            font-weight: 500;
+        }
+
+        .subtitle {
+            color: var(--secondary);
+            margin-top: 0.2rem;
+            font-weight: 400;
+            letter-spacing: 0.1rem;
+        }
+
+        .blinking-cursor::after {
+            content: '|';
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        .intro p {
+            margin: 1.5rem 0;
+        }
+
+        .dotted-line {
+            height: 1px;
+            width: 64px;
+            margin: 2rem 0;
+            background-image: linear-gradient(to right, var(--dots) 50%, transparent 50%);
+            background-position: top;
+            background-size: 6px 1px;
+            background-repeat: repeat-x;
+            opacity: 0;
+            animation: fadeIn 1s forwards 0.3s;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        .links {
+            margin-top: 2rem;
+        }
+
+        .links li {
+            margin: 2rem 0;
+        }
+
+        a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 700;
+            border-bottom: 2px solid var(--primary);
+            padding: 0.1em 0.2em;
+            transition: all 0.2s ease, transform 0.1s ease-in-out;
+        }
+
+        a:hover {
+            background-color: var(--hover-bg);
+            border-bottom-width: 3px;
+            transform: scale(1.03);
+        }
+
+        .cta {
+            margin-top: 3rem;
+            color: var(--secondary);
+            display: flex;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="font-weight: 500;">~ $ whoami</h1>
+            <p style="font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; margin-top: 0;">guru bhat</p>
+            <p class="subtitle" style="margin-top: 1.5rem;">~ doer of things<span class="blinking-cursor"></span></p>
+            <div class="dotted-line"></div>
+        </header>
+
+        <div class="intro">
+            <p>hey there friend! i'm guru.</p>
+            
+            <p>i spent the past few years as an sde-2 at oracle and later at intuit working with the <a href="https://docs.oracle.com/en/industries/communications/billing-revenue-management/index.html" target="_blank">brm framework</a>. i worked on everything from c-based apis, perl-based api tracing, debugged code across complex billing implementations, and even dabbled with langchain for code cleanup.</p>
+            
+            <p>now heading to b-school, hoping to shape products where finance meets ai. these days, i'm usually up at 4 am getting the most out of local llms and writing python scripts to automate the boring stuff. when i'm not, i'm keeping up with india's startup scene—watching how ideas scale, or crash spectacularly.</p>
+
+            <div class="dotted-line"></div>
+            
+            <div class="links">
+                <ul>
+                    <li>projects on <a href="https://github.com/yourusername" aria-label="Github profile">github</a></li>
+                    <li>yaps on <a href="https://twitter.com/yourusername" aria-label="Twitter profile">twitter</a></li>
+                    <li>cv on <a href="https://linkedin.com/in/yourusername" aria-label="LinkedIn profile">linkedin</a></li>
+                </ul>
+            </div>
+            
+            
+        </div>
+    </div>
+    <script>
+        console.log("iykwk: aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1kUXc0dzlXZ1hjUQ==");
+    </script>
+</body>
+</html>
