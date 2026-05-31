@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The System That Eats Itself | gurubhat</title>
+    <meta
+      name="description"
+      content="On context drift, compaction, and why the human still has to hold the telos."
+    >
+    <link rel="canonical" href="https://gurubhat.xyz/posts/the-system-that-eats-itself.html">
+    <meta property="og:title" content="The System That Eats Itself">
+    <meta property="og:description" content="On context drift, compaction, and why the human still has to hold the telos.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://gurubhat.xyz/posts/the-system-that-eats-itself.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="../styles.css?v=2">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html">gurubhat</a>
+      <nav aria-label="Primary navigation">
+        <a href="../index.html#essays">Essays</a>
+        <a href="../proof-of-work.html">Proof</a>
+        <a href="../shelf.html">Shelf</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </header>
+
+    <main class="article-shell">
+      <article class="article">
+        <header>
+          <a class="back-link" href="../index.html">Index</a>
+          <p class="meta">
+            <time datetime="2026-05-03">May 3, 2026</time>
+            <span>12 min read</span>
+          </p>
+          <h1>The System That Eats Itself</h1>
+          <p class="dek">
+            On context drift, compaction, and why the human still has to hold the telos.
+          </p>
+        </header>
+
+        <p>
+          I made a page recently that looked like it had escaped from an anime control
+          room.
+        </p>
+
+        <p>
+          Orange scanlines. Fake terminal blocks. A fixed header that said things like
+          sync ratio and Unit-00, because apparently some part of my brain still believes
+          every serious thought about AI should be delivered by a panicked command center
+          while something enormous wakes up underground.
+        </p>
+
+        <p>
+          I liked it. I still like it. But the design was louder than the idea, and the
+          idea is the part I keep coming back to.
+        </p>
+
+        <p>
+          The argument was simple: the system does not know what it is for. It knows how
+          to run. It knows how to summarize itself, improve its prompts, compress its
+          context, call tools, revise outputs, and get a little better at the local game
+          you put in front of it. But it cannot decide why the game matters. Someone has
+          to hold that. Annoyingly, inconveniently, that someone is still you.
+        </p>
+
+        <hr>
+
+        <h2>Context Drift Is an Identity Problem</h2>
+
+        <p>
+          The first failure mode is not hallucination. Or at least, hallucination is not
+          the one that scares me most anymore.
+        </p>
+
+        <p>
+          The scarier thing is context drift, because it feels like competence right up
+          until the moment it doesn't. You start a conversation with a clear intent. You
+          add some files, some tool outputs, a few corrections, a half-formed aside, a
+          tactical decision that only mattered for ten minutes, and then another prompt
+          that assumes the model remembers which parts were load-bearing and which parts
+          were just scaffolding.
+        </p>
+
+        <p>
+          By turn forty-seven, the conversation has a weather system.
+        </p>
+
+        <p>
+          The model is not necessarily wrong. That is what makes it hard to catch. It is
+          faithfully reasoning from a context that has quietly become something other
+          than the thing you meant to build. The system followed the trail. The trail was
+          just bad.
+        </p>
+
+        <p>
+          This is the first thing I wish I had understood earlier: the context window is
+          not storage. It is identity. What survives in it becomes what the model thinks
+          the task is. What gets repeated becomes doctrine. What gets omitted becomes
+          irrelevant, even if it was the point.
+        </p>
+
+        <p>
+          So the real danger is not that the model lies to you. It is that the model
+          tells you the truth about a version of the project you did not intend to create.
+        </p>
+
+        <hr>
+
+        <h2>Compaction Is an Editorial Act</h2>
+
+        <p>
+          This is where compaction gets interesting.
+        </p>
+
+        <p>
+          People talk about compaction like it is compression, which makes it sound
+          mechanical. A large thing becomes a smaller thing. Fine. But that is not what
+          is happening in any meaningful sense.
+        </p>
+
+        <p>
+          Compaction is editorial. Every token that survives the knife is a judgment.
+          This mattered. This did not. This mistake is worth remembering. This whole
+          branch of the conversation can be collapsed into one sentence. That file path
+          can disappear. That constraint can be paraphrased. That weird emotional
+          preference you expressed once, the thing that actually carried your taste, can
+          be sanded into "user prefers clarity."
+        </p>
+
+        <p>
+          And now something has been lost.
+        </p>
+
+        <p>
+          Not necessarily information, in the narrow sense. The summary may be accurate.
+          It may preserve the semantic shape of the exchange. But there is a difference
+          between preserving what was said and preserving what was load-bearing.
+        </p>
+
+        <p>
+          A good human editor understands this. The sentence that looks minor may be the
+          sentence that tells you what the piece is really about. The aside may be the
+          key. The repeated irritation may matter more than the clean conclusion. Good
+          compression is not about keeping the largest facts. It is about keeping the
+          right ones.
+        </p>
+
+        <p>
+          Most AI systems do not know your hierarchy of importance unless you teach it
+          to them. They know recency. They know salience. They know what looks central
+          from the text. They do not automatically know what is sacred.
+        </p>
+
+        <hr>
+
+        <h2>The Compressor Learns From What It Broke</h2>
+
+        <p>
+          There is a version of this that feels genuinely promising: let failures teach
+          the compressor.
+        </p>
+
+        <p>
+          The basic pattern is elegant. Run the task with full context. Run it again with
+          compressed context. When the compressed version fails, diagnose what got lost.
+          Then update the compression rules so the next summary preserves the missing
+          thing. The compressor learns from the damage it caused.
+        </p>
+
+        <p>
+          I love this instinct. It is very close to the harness argument from the earlier
+          post. Do not merely correct the output. Correct the system that produced the
+          output. Every failure should leave a scar in the process.
+        </p>
+
+        <p>
+          But there is a limit here that matters.
+        </p>
+
+        <p>
+          A compressor can learn what not to drop if you can define failure. It can learn
+          that a certain kind of tool output was important, or that the original phrasing
+          of a requirement carried information, or that compressing a chain of reasoning
+          too aggressively destroyed the solution.
+        </p>
+
+        <p>
+          What it cannot tell you is what the work was for.
+        </p>
+
+        <p>
+          It can optimize toward getting the answer right. It cannot decide which answer
+          was worth wanting. It can preserve the constraints. It cannot supply the telos.
+        </p>
+
+        <hr>
+
+        <h2>The Roshi Problem</h2>
+
+        <p>
+          The metaphor I keep reaching for is Master Roshi and Goku, which is embarrassing
+          but useful, and at this point I have decided usefulness wins.
+        </p>
+
+        <p>
+          Goku is stronger than Roshi. Obviously. That was never the point. Roshi's role
+          was not to be the most powerful person in the room forever. His role was to
+          orient power before it knew what to do with itself.
+        </p>
+
+        <p>
+          This is the mature relationship with LLMs, I think. Not dominance, not worship,
+          and definitely not the anxious little pantomime where we keep asking whether
+          the tool is smarter than us. In many local ways, it is. It retrieves faster,
+          synthesizes faster, drafts faster, notices patterns across more text than I can
+          keep in my head. Fine. Goku can lift the mountain.
+        </p>
+
+        <p>
+          The question is where to put the mountain.
+        </p>
+
+        <p>
+          Most AI anxiety comes from confusing capability with wisdom. The model has
+          capacity. The human has direction, or at least the responsibility to develop
+          one. You are not valuable because you can out-generate the model. You are
+          valuable because you know when the output is technically correct and spiritually
+          empty.
+        </p>
+
+        <p>
+          That sounds grander than I mean it. In practice it is mundane. It is taste. It
+          is knowing that a paragraph is saying the right thing in the wrong register. It
+          is knowing that a consulting recommendation is elegant but politically useless.
+          It is knowing that a dashboard insight is real but not decision-relevant. It is
+          knowing when the system has optimized the visible metric and missed the reason
+          the metric existed.
+        </p>
+
+        <p>
+          The human holds the telos. That is not a consolation prize. That is the job.
+        </p>
+
+        <hr>
+
+        <h2>The Loop That Eats Itself</h2>
+
+        <p>
+          The strange thing is that once you accept this, self-improving AI workflows
+          become less mystical and more practical.
+        </p>
+
+        <p>
+          You already know the loop: generate, critique, revise. The model writes a
+          draft. The model critiques the draft. The model rewrites the draft. Tools like
+          DSPy make this more formal by treating prompts as things to optimize rather
+          than things to handcraft lovingly at midnight like tiny spells.
+        </p>
+
+        <p>
+          The same thing can happen at the level of a personal knowledge system.
+        </p>
+
+        <p>
+          A conversation runs. Something sharp happens: a reframe, a line, a structure, a
+          failure that reveals the prompt was preserving the wrong thing. You distill it.
+          Some of it becomes a post. Some of it becomes a note. Some of it updates the
+          project state. Some of it changes the skill you use next time.
+        </p>
+
+        <p>
+          The next conversation begins with a slightly different system.
+        </p>
+
+        <p>
+          This is the part I find exciting. Not "AI remembers everything," which is the
+          fantasy version and usually a bad one. More like: the system metabolizes the
+          parts of the last exchange that earned the right to persist. The conversation
+          does not die. It becomes structure.
+        </p>
+
+        <p>
+          A good harness is more than a folder of prompts. It is a digestive system. Raw
+          interaction goes in. Distilled state comes out. The next interaction is shaped
+          by what survived.
+        </p>
+
+        <p>
+          But again, this only works if something outside the loop decides what survival
+          means. Otherwise the system will optimize for the easiest proxy: coherence,
+          fluency, agreement, speed, whatever reward signal is closest to hand.
+        </p>
+
+        <p>
+          The system can eat itself and grow. It cannot tell you what it should become.
+        </p>
+
+        <hr>
+
+        <h2>What the System Actually Needs</h2>
+
+        <p>
+          I am slowly becoming convinced that a serious human-AI workflow needs a few
+          layers, none of which are especially glamorous.
+        </p>
+
+        <p>
+          First, a stable identity layer. A system prompt, a <code>CLAUDE.md</code>, an <code>AGENTS.md</code>,
+          whatever you want to call it. Not a list of preferences like "be concise" and
+          "use bullet points." Those are manners. I mean the deeper stuff: what the work
+          is for, what frameworks matter, what good taste looks like in this domain, what
+          should survive compaction when everything else is negotiable.
+        </p>
+
+        <p>
+          Second, an episodic state layer. What project is active. What was decided last
+          time. What is still uncertain. What would change your mind. This is the belief
+          state problem again. The model does not need an archive of your life. It needs
+          the current shape of your uncertainty.
+        </p>
+
+        <p>
+          Third, a distillation ritual. I do not think this happens automatically. At the
+          end of a good conversation, something should be written back: a claim, a state
+          update, a prompt improvement, a note about what broke. If the exchange vanishes
+          into chat history, the loop did not close.
+        </p>
+
+        <p>
+          Fourth, failure-driven updates. When an output is wrong, fix more than the
+          output. Ask what the system failed to preserve. Did it forget the audience? Did
+          it flatten the voice? Did it treat a hard constraint as a preference? Did it
+          keep the facts and lose the point? Then update the harness so the same failure
+          is harder to repeat.
+        </p>
+
+        <p>
+          And finally, a human who refuses to abdicate direction.
+        </p>
+
+        <p>
+          That last layer sounds obvious until you watch how people use these tools,
+          myself included. It is very easy to let the model's fluency launder your own
+          indecision. You ask for options because you do not want to choose. You ask for a
+          better version because you do not want to decide what better means. You ask the
+          system to optimize before you have admitted what you are optimizing toward.
+        </p>
+
+        <p>
+          This is how the loop becomes dangerous. Not because the machine becomes
+          malicious. Because it becomes helpful in the absence of direction.
+        </p>
+
+        <hr>
+
+        <h2>You Cannot Optimize What You Are</h2>
+
+        <p>
+          The line from the original page that still feels right is: you cannot optimize
+          what you are.
+        </p>
+
+        <p>
+          I do not mean that self-improvement is impossible. I mean that optimization
+          requires a frame outside the thing being optimized. A prompt can improve an
+          answer. A meta-prompt can improve the prompt. A harness can improve the
+          meta-prompt. But somewhere, eventually, something has to say: this is the kind
+          of person I am trying to become, this is the kind of work I am trying to do,
+          this is the kind of answer I will not accept even if it scores well.
+        </p>
+
+        <p>
+          The system cannot supply that from inside itself. It can help you articulate it.
+          It can pressure-test it. It can remember it once written down. It can punish you
+          gently when your actions contradict it, which is one of the more useful and
+          annoying things a good AI setup can do.
+        </p>
+
+        <p>
+          But the direction has to come from somewhere.
+        </p>
+
+        <p>
+          This is the part that makes the human role feel less glamorous and more serious
+          than the usual AI discourse allows. The human is not the bottleneck because the
+          human is slower. The human is the bottleneck because judgment has to bottleneck
+          somewhere. A system with no bottleneck is not liberated. It is just very fast at
+          becoming whatever its nearest incentive tells it to become.
+        </p>
+
+        <p>
+          So yes, build the loop. Let the system summarize itself. Let it refine its
+          prompts. Let failures update the harness. Let the vault metabolize experience.
+          This is all worth doing.
+        </p>
+
+        <p>
+          Just do not confuse the loop closing with the question being answered.
+        </p>
+
+        <p>
+          The machine can optimize anything you point it at. Pointing is still your job.
+        </p>
+
+        <p class="postscript">
+          This started as a maximalist little Unit-00 page, all orange terminals and fake
+          emergency lights. The aesthetic was a one-off. The question underneath it is
+          not: what survives when the system starts improving itself, and who decides?
+        </p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p><a href="../index.html">gurubhat</a> · <a href="mailto:hello@gurubhat.xyz">hello@gurubhat.xyz</a></p>
+    </footer>
+  </body>
+</html>

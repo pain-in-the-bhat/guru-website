@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>smolgate, or How I Learnt to Be Okay With Smaller Context Windows | gurubhat</title>
+    <meta
+      name="description"
+      content="On context windows, hoarding, and the fantasy that more memory equals better thought"
+    >
+    <link rel="canonical" href="https://gurubhat.xyz/posts/smolgate.html">
+    <meta property="og:title" content="smolgate, or How I Learnt to Be Okay With Smaller Context Windows">
+    <meta property="og:description" content="On context windows, hoarding, and the fantasy that more memory equals better thought">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://gurubhat.xyz/posts/smolgate.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="../styles.css?v=2">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html">gurubhat</a>
+      <nav aria-label="Primary navigation">
+        <a href="../index.html#essays">Essays</a>
+        <a href="../proof-of-work.html">Proof</a>
+        <a href="../shelf.html">Shelf</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </header>
+
+    <main class="article-shell">
+      <article class="article">
+        <header>
+          <a class="back-link" href="../index.html">Index</a>
+          <p class="meta">
+            <time datetime="2026-05-24">May 24, 2026</time>
+            <span>8 min read</span>
+          </p>
+          <h1>smolgate, or How I Learnt to Be Okay With Smaller Context Windows</h1>
+          <p class="dek">
+            On context windows, hoarding, and the fantasy that more memory equals better thought
+          </p>
+        </header>
+
+        <p>There is a little dopamine hit that comes from seeing an absurdly large context window.</p>
+        
+        <p>One million tokens. Two million tokens. A number so large it stops feeling like a technical specification and starts feeling like absolution.</p>
+        
+        <p>Finally, you think, I will not have to choose.</p>
+        
+        <p>I can put everything in.</p>
+        
+        <p>Every note. Every PDF. Every half-relevant chat. Every source document. Every transcript. Every scrap of prior thinking that might, under some sufficiently generous interpretation, turn out to matter.</p>
+        
+        <p>The model will figure it out.</p>
+        
+        <p>This feels like power.</p>
+        
+        <p>It is often avoidance.</p>
+        
+        <p>I do not say this as someone immune to the feeling. I love a large context window. I love the idea that the machine can hold the room, the hallway outside the room, the Slack export, three PDFs, a prior conversation, and my half-finished theory of why the whole thing matters. It feels expansive. It feels safe.</p>
+        
+        <p>It also lets me postpone the one act that actually makes thinking happen.</p>
+        
+        <p>Choosing what matters.</p>
+        
+        <hr />
+        
+        <p>The previous post was about model maximalism: the impulse to bring the most capable tool to every task because more power feels like more seriousness.</p>
+        
+        <p>Context-window maximalism is the more respectable cousin.</p>
+        
+        <p>Nobody sounds ridiculous saying they want more context. Context is good. Context is responsible. Context is what prevents hallucination, preserves nuance, and stops the model from giving you advice that would have been useful three assumptions ago.</p>
+        
+        <p>All true.</p>
+        
+        <p>The problem is that context has become a morally flattering word for hoarding.</p>
+        
+        <p>We say “more context” when we mean “I have not decided which parts are relevant.” We say “the model needs the full picture” when we mean “I do not want to make the cut myself.” We treat the context window like a landfill for unprocessed thought and then act surprised when the output smells faintly of garbage.</p>
+        
+        <p>The context window became a landfill for unprocessed thought.</p>
+        
+        <p>That line is rude, but it keeps being true.</p>
+        
+        <hr />
+        
+        <p>The basic mistake is treating context as neutral.</p>
+        
+        <p>It is not.</p>
+        
+        <p>Every extra document changes the task. Every pasted thread changes the center of gravity. Every old decision, unresolved aside, stale assumption, and semi-relevant source becomes part of the model’s working identity. You may think you are giving the system background. The system may experience it as instruction.</p>
+        
+        <p>This is why long-context failures can be so hard to diagnose. The model does not obviously break. It gives you a fluent answer. It cites the right facts. It seems aware of the terrain. But something is off. The answer is overfit to the archive rather than the question. It has absorbed the mess and mistaken it for the work.</p>
+        
+        <p>In <a href="the-system-that-eats-itself.html">The System That Eats Itself</a>, I argued that the context window is not storage. It is identity. What survives inside it shapes what the model thinks the task is.</p>
+        
+        <p>Large context makes this more powerful and more dangerous.</p>
+        
+        <p>Small context forgets. Large context drifts.</p>
+        
+        <p>Pick your poison, but at least know which one you are drinking.</p>
+        
+        <hr />
+        
+        <p>The fantasy of the giant context window is total recall.</p>
+        
+        <p>No more forgetting. No more losing the nuance. No more summarizing badly. No more deciding whether the aside from three hours ago matters. No more anxiety that the one thing you cut was the one thing the model needed.</p>
+        
+        <p>I get the appeal. It is the same fear that drives <a href="usage-anxiety.html">Usage Anxiety</a>: something real was built in the conversation, and you do not want it to evaporate. The instinct is correct. Something real can be lost.</p>
+        
+        <p>The mistake is thinking the answer is to preserve everything.</p>
+        
+        <p>Preserving everything is not the same as preserving state. It is not even the same as preserving meaning. A transcript remembers what was said. It does not necessarily remember what was settled, what was abandoned, what was load-bearing, or what question the whole thing was secretly moving toward.</p>
+        
+        <p>This is where more context becomes a trap. It lets you confuse recall with understanding.</p>
+        
+        <p>If the model has all the words, surely it has the thought.</p>
+        
+        <p>It does not.</p>
+        
+        <p>At best, it has the material from which the thought might be reconstructed. At worst, it has a museum of your indecision.</p>
+        
+        <hr />
+        
+        <p>Smaller context windows are annoying because they force the knife.</p>
+        
+        <p>What is the active question?</p>
+        
+        <p>What evidence matters?</p>
+        
+        <p>What has already been decided?</p>
+        
+        <p>What can be discarded?</p>
+        
+        <p>What is the difference between source material and working state?</p>
+        
+        <p>These are irritating questions. They slow you down. They make you admit that “include everything” was not thoroughness. It was fear wearing a clever hat.</p>
+        
+        <p>But the knife is the work.</p>
+        
+        <p>Summary is not a downgrade from thought. Good summary is thought. Distillation is not what happens after the thinking is done. It is one of the ways thinking happens.</p>
+        
+        <p>This is the thing large context lets us forget. It makes it possible to keep moving without synthesizing. You can always paste one more thing. You can always add the missing thread. You can always give the model “just a little more background” before forcing yourself to say what you actually believe.</p>
+        
+        <p>More context did not make me more thoughtful. It made me less willing to choose.</p>
+        
+        <p>That is the uncomfortable version.</p>
+        
+        <hr />
+        
+        <p>To be clear, this is not an anti-long-context argument.</p>
+        
+        <p>Long context is useful. Sometimes it is miraculous. If you are exploring a codebase, comparing source documents, analyzing transcripts, or letting a model hold a messy research corpus while you ask local questions, large windows can feel like cheating in the best way.</p>
+        
+        <p>The problem is not the size.</p>
+        
+        <p>The problem is the lack of structure.</p>
+        
+        <p>Large context works when paired with structured cognition. Small context helps because it forces structured cognition. The enemy is not context. The enemy is unsynthesized context pretending to be understanding.</p>
+        
+        <p>The workflow I keep coming back to is boring and therefore probably correct:</p>
+        
+        <p>Use large context for ingestion and exploration.</p>
+        
+        <p>Distill aggressively.</p>
+        
+        <p>Work from the distillate.</p>
+        
+        <p>Keep the sources available, but do not confuse them with state.</p>
+        
+        <p>This sounds obvious until you watch how people actually use these systems, myself included. We upload the sources and then keep working inside the soup. The soup gets bigger. The model gets more accommodating. The human gets less precise.</p>
+        
+        <p>Then we call the output “deep.”</p>
+        
+        <p>Sometimes it is.</p>
+        
+        <p>Sometimes it is just wet.</p>
+        
+        <hr />
+        
+        <p>There is a reason people resist distillation.</p>
+        
+        <p>Distillation is lossy, and loss feels dangerous. What if you cut the wrong thing? What if the nuance mattered? What if the model needed that weird paragraph from page 47? What if the aside was the key?</p>
+        
+        <p>These are real risks.</p>
+        
+        <p>But refusing to lose anything is also a loss. You lose hierarchy. You lose salience. You lose the ability to tell the model what kind of object it is holding. Everything becomes potentially relevant, which is another way of saying nothing is actually prioritized.</p>
+        
+        <p>The mature move is not to avoid loss.</p>
+        
+        <p>It is to choose your losses deliberately.</p>
+        
+        <p>A good distillation does not preserve everything. It preserves the frame, the vocabulary, the decisions, the open tensions, and the evidence that actually bears weight. It leaves behind the parts that can be reloaded if needed but do not need to live in working memory.</p>
+        
+        <p>This is the same distinction as notes versus state.</p>
+        
+        <p>Notes are archive.</p>
+        
+        <p>State is what the next thought needs in order to continue.</p>
+        
+        <p>Most context-window maximalism is archive envy masquerading as state management.</p>
+        
+        <hr />
+        
+        <p>This is also why the dream of “infinite context” feels slightly cursed.</p>
+        
+        <p>Infinite context sounds like the end of forgetting. But forgetting is not only a bug. Forgetting is one of the ways a system stays oriented. If every past branch remains equally present, the current task has to compete with all its ghosts.</p>
+        
+        <p>Humans forget badly, obviously. We lose important things. We remember emotionally convenient lies. We reconstruct ourselves with all the reliability of a startup pitch deck.</p>
+        
+        <p>Still, human forgetting has one accidental virtue: it compresses. The details fade. The shape remains. You remember the fight, not every sentence. You remember the argument, not every tab. You remember the decision, not the entire messy path that produced it.</p>
+        
+        <p>AI systems need a better version of that.</p>
+        
+        <p>Not total recall.</p>
+        
+        <p>Disciplined forgetting.</p>
+        
+        <p>The point of a harness is not to remember everything. It is to make the system forget correctly.</p>
+        
+        <hr />
+        
+        <p>This loops back to <a href="goldilocks-conundrum.html">Goldilocks</a>.</p>
+        
+        <p>The right context window is not the largest one you can access. It is the one that supports the kind of thinking you are doing without letting you abdicate synthesis.</p>
+        
+        <p>If you are ingesting, go large.</p>
+        
+        <p>If you are deciding, go distilled.</p>
+        
+        <p>If you are drafting, keep the frame close and the archive nearby.</p>
+        
+        <p>If you are lost, adding more context may be exactly the wrong move. You may not need more material. You may need to say the question out loud.</p>
+        
+        <p>The adult move is not pretending smaller context is always better. That is just asceticism with a tokenizer.</p>
+        
+        <p>The adult move is knowing when the hunger for more context is actually fear of making the cut.</p>
+        
+        <hr />
+        
+        <p>I still like big context windows.</p>
+        
+        <p>Of course I do. I am not made of discipline. Give me a tool that says “drop everything here” and some part of me will always relax. The promise is too good: no more forgetting, no more handoff anxiety, no more deciding what matters before I am ready.</p>
+        
+        <p>But I trust that relaxation less now.</p>
+        
+        <p>Sometimes it means the tool is genuinely giving me room to think.</p>
+        
+        <p>Sometimes it means I have found a more technologically impressive way to avoid thinking.</p>
+        
+        <p>Having everything in context is not the same as knowing what to do next.</p>
+        
+
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p><a href="../index.html">gurubhat</a> · <a href="mailto:hello@gurubhat.xyz">hello@gurubhat.xyz</a></p>
+    </footer>
+  </body>
+</html>

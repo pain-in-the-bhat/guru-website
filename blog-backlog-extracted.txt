@@ -1,0 +1,345 @@
+
+
+--- PAGE 1 ---
+Blog Backlog: Notes from an AI-Accelerated
+Midwit
+A collection of essay ideas exploring AI, technology, cognition, ambition, internet culture, and the strange
+incentives of the modern knowledge economy.
+Tier 1: High Priority
+1. The Goldilocks Conundrum for AI Enthusiasts
+Is Bigger Actually Better or Are You Overcompensating?
+Core Thesis
+AI enthusiasts increasingly optimize for maximum capability rather than maximum usefulness.
+Questions
+Why are people obsessed with larger models?
+Why does every AI workflow eventually become a spec sheet contest?
+What psychological needs are being satisfied by model maximalism?
+Themes
+Parameter count flexing
+Context window wars
+Benchmark addiction
+Status signalling
+Capability theatre
+Key Insight
+The optimal AI setup is rarely the most powerful one.
+Memorable Lines
+People benchmark like researchers but live like operators.
+Infinite capability often compensates for finite clarity.
+You don't call the CEO to decide lunch.
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+1
+
+--- PAGE 2 ---
+2. smolgate or how I learnt to be okay with smaller context
+windows
+Core Thesis
+Large context windows are often landfills for unprocessed thought.
+Questions
+Does more context produce better thinking?
+Are we using context windows as substitutes for synthesis?
+Themes
+Context pollution
+Information hoarding
+Knowledge management culture
+Intentional constraints
+Key Insight
+Having infinite context is not the same thing as having structured cognition.
+Memorable Lines
+The context window became a landfill for unprocessed thought.
+Constraints create clarity.
+3. Cheap Intelligence Changes Human Psychology More Than
+Smarter Intelligence
+Core Thesis
+Affordable AI changes user behavior more profoundly than marginal intelligence gains.
+Origin Story
+Using Kimi/OpenCode and realizing that cheap, abundant intelligence encourages experimentation.
+Themes
+Token anxiety
+Iterative exploration
+Availability vs intelligence
+Ambient cognition
+Key Insight
+The best model is often the one that makes you less self-conscious about using AI.
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+2
+
+--- PAGE 3 ---
+Memorable Lines
+Cheap intelligence democratizes curiosity.
+Availability changes behavior more than brilliance.
+Users stop worshipping prompts once retries become trivial.
+Tier 2: Strong Concepts
+4. Shoutout to My X
+Why I Keep Coming Back to X After Affairs with Instagram (Healing Era)
+Core Thesis
+Different social platforms shape different versions of the self.
+Themes
+Curiosity vs aspiration
+Intellectual insecurity
+Algorithmic environments
+Digital identity
+Framework
+Instagram = Raj X = Suri
+Instagram:
+Aesthetic aspiration
+Lifestyle consumption
+Social comparison
+X:
+Cognitive stimulation
+Idea discovery
+Intellectual inadequacy
+Key Insight
+Instagram made me want a different life. X made me want different thoughts.
+Memorable Lines
+X is the only platform that can make me feel simultaneously inspired and catastrophically
+behind.
+Not every return is a relapse.
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+3
+
+--- PAGE 4 ---
+5. The OpenClaw Great Divide
+To Claw or Not to Claw, That Is the Question
+Core Thesis
+The AI community is splitting into convenience seekers and sovereignty seekers.
+Themes
+Local AI
+Self-hosting
+Tool ownership
+Hacker romanticism
+Convenience vs control
+Key Insight
+The debate is not about tooling. It's about what relationship you want with technology.
+Memorable Lines
+Every power user eventually becomes part-time IT support for themselves.
+Some people want AI products. Others want AI infrastructure.
+6. The Impossible Homework of Modern Tech
+Manus Is So 2023 Bro
+Core Thesis
+Keeping up with technology is becoming a full-time occupation.
+Personal Angle
+Former SDE2 turned MBA student/consultant trying to remain technically relevant.
+Themes
+Information overload
+AI velocity
+Constant reinvention
+Frontier anxiety
+Key Insight
+The problem is not learning. The problem is filtering.
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+4
+
+--- PAGE 5 ---
+Memorable Lines
+AI Twitter compresses six months of technological evolution into a Tuesday afternoon.
+Every week the future gets rewritten.
+Tier 3: Cultural Criticism
+7. Identifying AI Snake Oil Salesmen for Dummies
+Core Thesis
+Modern AI hype follows predictable patterns.
+Focus
+Not fraud.
+Incentives.
+Red Flags
+No economics
+No operational details
+Demo maximalism
+Frontier model fetishism
+Magical certainty
+Key Insight
+Most AI theatre optimizes for perceived leverage rather than operational truth.
+Memorable Lines
+Most AI demos are theatre productions with exceptionally cooperative actors.
+The thumbnail economy rewards perceived leverage, not operational truth.
+8. The Aesthetics of Intelligence
+Core Thesis
+Modern technology increasingly rewards the appearance of intelligence.
+Themes
+Knowledge graphs
+AI dashboards
+Terminal screenshots
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+5
+
+--- PAGE 6 ---
+Productivity systems
+Intellectual branding
+Questions
+When did intelligence become aesthetic?
+Why do screenshots now function as status symbols?
+Key Insight
+The representation of thinking now has market value.
+Memorable Lines
+The graph became a moodboard for unrealized cognition.
+Knowledge management tools increasingly optimize for the aesthetics of intelligence rather than
+the consequences of understanding.
+Tier 4: Future Essays
+9. The Productivity Bodybuilders
+Core Thesis
+Many people spend more time building productivity systems than producing meaningful work.
+Themes
+Notion maximalism
+PKM culture
+AI workflows
+System-building as procrastination
+Key Insight
+Many people are optimizing the amplification layer before developing anything worth amplifying.
+10. Formula One Cars for Grocery Runs
+Core Thesis
+Most AI tooling is optimized for users with problems they do not actually have.
+Origin
+Hermes + NotebookLM + Agent workflows.
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+6
+
+--- PAGE 7 ---
+Questions
+Who actually needs these setups?
+What is the opportunity cost of tooling obsession?
+Key Insight
+A tuned NSX is impressive. But only if you actually have somewhere meaningful to drive.
+Memorable Lines
+Many people are building Formula One pit lanes for grocery runs.
+AI tooling increasingly resembles productivity bodybuilding.
+Meta Essay
+11. Humans After Intelligence Becomes Cheap
+Core Thesis
+Most of these essays are actually exploring one question:
+What happens when intelligence becomes abundant but wisdom remains scarce?
+Themes
+AI
+Ambition
+Knowledge work
+Internet culture
+Identity
+Cognition
+Potential Positioning
+This becomes the umbrella essay tying the entire collection together .
+Recurring Themes Across All Essays
+Tensions
+Capability vs usefulness
+Scale vs clarity
+Information vs understanding
+Performance vs substance
+Aspiration vs curiosity
+Convenience vs sovereignty
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+7
+
+--- PAGE 8 ---
+Intelligence vs wisdom
+Collection vs synthesis
+Tooling vs outcomes
+Writing Rules
+Avoid
+Generic AI hype
+Generic AI doom
+Twitter cynicism
+"Everyone is stupid" takes
+Excessive dunking
+Prefer
+Participant-observer perspective
+Personal anecdotes
+Systems thinking
+Economic reasoning
+Psychological observations
+Cultural analysis
+North Star
+You are not writing about AI.
+You are writing about how humans behave when intelligence, information, and leverage become
+abundant.
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+8

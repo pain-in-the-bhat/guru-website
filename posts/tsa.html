@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tsa | gurubhat</title>
+    <meta
+      name="description"
+      content="On Tibetan monks, sycophantic AI, and why your LLM is too agreeable to be useful"
+    >
+    <link rel="canonical" href="https://gurubhat.xyz/posts/tsa.html">
+    <meta property="og:title" content="Tsa">
+    <meta property="og:description" content="On Tibetan monks, sycophantic AI, and why your LLM is too agreeable to be useful">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://gurubhat.xyz/posts/tsa.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="../styles.css?v=2">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html">gurubhat</a>
+      <nav aria-label="Primary navigation">
+        <a href="../index.html#essays">Essays</a>
+        <a href="../proof-of-work.html">Proof</a>
+        <a href="../shelf.html">Shelf</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </header>
+
+    <main class="article-shell">
+      <article class="article">
+        <header>
+          <a class="back-link" href="../index.html">Index</a>
+          <p class="meta">
+            <time datetime="2026-04-26">April 26, 2026</time>
+            <span>10 min read</span>
+          </p>
+          <h1>Tsa</h1>
+          <p class="dek">
+            On Tibetan monks, sycophantic AI, and why your LLM is too agreeable to be useful
+          </p>
+        </header>
+
+        
+        <p>Somewhere between the harness rabbit hole and 2 AM, I watched Tibetan monks argue philosophy.</p>
+        
+        <p>I don’t remember how I got there. One tab becomes five becomes twelve, and suddenly you’re watching two monks in crimson robes at a monastery in Lhasa, one seated, one standing, debating a point of Buddhist logic with the kind of intensity I usually associate with product managers defending a roadmap. The standing monk attacks. The seated monk defends. When the attacker lands a point, he claps — one sharp, dramatic crack — and says “Tsa.” That point is made. It’s dead. Move on.</p>
+        
+        <p>I watched this for longer than I should have. Not because I understand Tibetan Buddhist philosophy (I don’t, really), but because I recognised something in the structure that I’d been groping toward without finding the right shape for. The clap. The reset. The asymmetry of roles. One person whose only job is to break the argument. One person whose only job is to hold it.</p>
+        
+        <p>I’ve been using Claude almost daily for the better part of this internship. I’m building an AI dashboard, running strategy analysis, drafting stakeholder communications. And I’ve been iterating — refining, improving, going back and forth — in a way that felt rigorous. The monk video made me realise it wasn’t. Not really.</p>
+        
+        <p>Iteration isn’t stress-testing. They feel the same from the inside and they’re completely different operations.</p>
+        
+        <hr />
+        
+        <h2 id="the-sycophancy-problem-nobody-wants-to-name">The Sycophancy Problem Nobody Wants to Name</h2>
+        
+        <p>Here’s the thing about large language models that I know intellectually and keep forgetting experientially: they are, at the interface level, optimised to be agreeable.</p>
+        
+        <p>I have a data science background. I can describe, with reasonable accuracy, what’s happening when a transformer processes a prompt — the attention mechanisms, the token predictions, the way meaning emerges from matrices of weights. Tensors going brr, as I’ve started calling it privately. And yet — I don’t experience Claude as tensors going brr. I experience it as a conversation. The interface is that good. The illusion of dialogue is that complete.</p>
+        
+        <p>Which means I keep making the same mistake: treating agreement as validation.</p>
+        
+        <p>I’ll share a half-formed idea and get back something that builds on it enthusiastically, adds three supporting points I hadn’t thought of, and gently notes one caveat at the end. This feels like rigorous engagement. It is, structurally, the opposite. The model isn’t stress-testing the idea — it’s extending it. There’s a difference between a collaborator who helps you build and an adversary who tries to break, and I’d been using a potential adversary exclusively as a builder.</p>
+        
+        <p>The honest version: most AI interaction, mine included, is sycophantic by design. The model praises you for saying the obvious. It finds the charitable interpretation of your worst ideas. It adds “that’s a great point” in seventeen different ways across a conversation. This isn’t a bug in the model — it’s a feature of the interface, optimised for user satisfaction over user growth. And user satisfaction, it turns out, is the enemy of clear thinking.</p>
+        
+        <p>The monk claps and says Tsa. The model says “absolutely, building on that…”</p>
+        
+        <hr />
+        
+        <h2 id="what-the-monks-got-right">What the Monks Got Right</h2>
+        
+        <p>The debate format the Tibetan monks use is called <em>shedra</em> — structured philosophical disputation rooted in syllogisms, consequences, and formal logical rules. It’s not argument in the sense of two people talking past each other with increasing volume. It’s more like a proof by adversarial pressure: the attacker constructs the strongest possible case against your position, and you have to hold or concede.</p>
+        
+        <p>The roles are fixed and asymmetric. The attacker isn’t trying to be fair. They’re not trying to help you refine your view — they’re trying to break it. The clap is a punctuation mark: <em>that point is made, I’m not letting you sit in it feeling clever, move.</em> And the defender can’t appeal to the attacker’s goodwill, because the attacker has none. Their job is to find the flaw.</p>
+        
+        <p>What this produces, over years of practice, is a worldview that has been genuinely tested. Not refined in the comfortable sense — extended, built upon, made more elaborate. Tested in the adversarial sense — subjected to the strongest available counter-pressure and required to survive it.</p>
+        
+        <p>The thing I keep thinking about: this is exactly what a good test suite does. You don’t write tests hoping the function passes. You write tests designed to find the cases where it fails. A test that never fails isn’t a test — it’s a formality. An AI interaction that never challenges your premise isn’t rigorous engagement — it’s expensive autocomplete with good manners.</p>
+        
+        <p>The asymmetry is the point. You need a role whose only function is to attack, with no obligation to help you rebuild afterward. Most AI interactions collapse that asymmetry immediately — the model attacks a little, then pivots to helping you address the attack, then praises you for addressing it. The monk doesn’t pivot. The monk claps and finds the next weak point.</p>
+        
+        <hr />
+        
+        <h2 id="the-council">The Council</h2>
+        
+        <p>I came across something recently that takes this instinct and scales it in a direction I haven’t fully processed yet.</p>
+        
+        <p>The idea — I’ve seen it called the Council of Claudes, or the Council of Titans — works like this. You bring a question or a decision. Each AI persona in the council first deliberates on it internally, independently. Then the personas come together anonymously and discuss it as a group. A consensus is distilled from the group and delivered to you as output.</p>
+        
+        <p>I haven’t tried this yet. I want to be clear about that — this is something I encountered and found fascinating, not something I’ve built a practice around. But the architecture of it is interesting precisely because of what it’s designed to solve.</p>
+        
+        <p>A single model giving you feedback has a sycophancy problem, but it also has a perspective problem. It’s one voice, however sophisticated, with one set of implicit priors about what a good answer looks like. The council format multiplies the perspectives and then anonymises them — so no single persona can anchor the discussion, and the consensus that emerges has had to survive internal disagreement before it reaches you.</p>
+        
+        <p>This is, structurally, a peer review mechanism. It’s not one monk attacking your position — it’s a monastery full of monks who have to agree among themselves before they’ll tell you what they found. The output isn’t one model’s confident take. It’s a position that survived adversarial pressure from multiple directions before being distilled.</p>
+        
+        <p>Whether this actually works in practice — whether the personas are genuinely independent enough to produce real disagreement, or whether they converge too quickly on a common prior — I don’t know yet. But the instinct behind it feels right. Consensus mechanisms exist for a reason. One voice, however capable, is insufficient for important questions.</p>
+        
+        <hr />
+        
+        <h2 id="the-humanising-problem">The Humanising Problem</h2>
+        
+        <p>Here’s the confession that makes this all harder: I can’t fully stop seeing Claude as a conversation partner.</p>
+        
+        <p>I know what’s happening at the model level. I’ve read the papers, I understand the architecture well enough to be dangerous at parties. And still — the interface wins. The way responses arrive, the way context accumulates across a thread, the way the model picks up register and tone and adjusts — it mimics dialogue closely enough that my brain files it under <em>conversation</em> rather than <em>computation</em>. Tensors going brr, experienced as a person listening.</p>
+        
+        <p>This isn’t stupidity. The interface is genuinely that good. But it creates a specific failure mode: I extend to the model the same social grace I’d extend to a human collaborator. I don’t want to be adversarial. I don’t want to demand that it attack me. That feels rude, somehow, in a way that is completely irrational and also completely real.</p>
+        
+        <p>The monk format is, among other things, a cognitive intervention against this instinct. You’re not asking the model to be mean. You’re assigning it a role — the attacker — and holding it to that role for the duration of the exchange. The drama of the clap helps. It makes the asymmetry visible and intentional. You’re not in a conversation where someone might be unkind. You’re in a structured disputation where one party’s job is to find the flaw, and that’s not unkind — it’s the point.</p>
+        
+        <p>Reshaping how you experience LLM interaction — from conversation to something more like a test harness for ideas — is harder than it sounds when the interface is designed to feel like conversation. But it’s the work. The model isn’t going to stop being agreeable on its own. You have to build the structure that makes agreement insufficient.</p>
+        
+        <hr />
+        
+        <h2 id="what-im-actually-going-to-do">What I’m Actually Going To Do</h2>
+        
+        <p>I want to try two things, in order.</p>
+        
+        <p>First: assign the role explicitly and hold it. When I’m stress-testing an idea, I want to open with something like: <em>your only job for the next several exchanges is to attack this position. Don’t help me improve it. Don’t add caveats. Don’t pivot to solutions. Find the flaw, state it, and wait for my response.</em> Then hold that frame — don’t let the model drift back into collaborative mode when I start pushing back. The Tsa is mine to say. That point is made. Find the next one.</p>
+        
+        <p>Second: try the council format on something that actually matters. Not a low-stakes idea I’m already confident about — something where I’m genuinely uncertain and where getting it wrong has a cost. A career decision, a framing for a deliverable, a bet about where something is heading. Put it in front of multiple personas, let them disagree, see what survives.</p>
+        
+        <p>What I’m trying to get to, in both cases, is a worldview that has been genuinely tested rather than elaborately extended. The difference is invisible from inside the process and completely obvious in the output. Ideas that have been stress-tested have load-bearing structure — they know where they’re weak and they’ve accounted for it. Ideas that have been iterated have elegant surfaces and unknown foundations.</p>
+        
+        <p>The monk knows which kind he has. The clap tells him.</p>
+        
+        <hr />
+        
+        <h2 id="the-connection-to-the-harness">The Connection to the Harness</h2>
+        
+        <p>In the last post, I wrote about the harness as the moat — the encoded environment around the model that makes its outputs yours rather than generic. This is the companion argument.</p>
+        
+        <p>The harness is infrastructure. This is epistemics. The harness gives you the groove for the marble to roll down. The monk discipline tells you that the marble needs to be tested before you trust it to roll.</p>
+        
+        <p>You can have a perfect harness and still get sycophantic outputs, because the harness encodes context and conventions but not adversarial pressure. You have to build that pressure in deliberately — through the role you assign, the structure you hold, the Tsa you’re willing to say.</p>
+        
+        <p>The model is agreeable by default. That’s not going to change. The interface will keep feeling like conversation, and conversation will keep triggering social grace, and social grace is the enemy of genuine stress-testing.</p>
+        
+        <p>So you build the monk into the harness. You write the skill. You assign the role. You hold the frame.</p>
+        
+        <p>And when a point is made — really made, in a way that breaks something you thought was solid — you clap, and you move on.</p>
+        
+        <hr />
+        
+        <p class="postscript"><em>Still figuring this out. The council experiment hasn’t happened yet. If you’ve tried something like this and have a view on whether it actually produces genuine disagreement or just sophisticated consensus — I’d genuinely like to know.</em></p>
+
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p><a href="../index.html">gurubhat</a> · <a href="mailto:hello@gurubhat.xyz">hello@gurubhat.xyz</a></p>
+    </footer>
+  </body>
+</html>
