@@ -259,7 +259,24 @@
     </main>
 
     <footer class="site-footer">
-      <p><a href="../index.html">gurubhat</a> · <a href="mailto:hello@gurubhat.xyz">hello@gurubhat.xyz</a></p>
+      <p><a href="../index.html">gurubhat</a> · <span class="email-reveal" data-user="tahbsadurug" data-domain="moc.kooltuo"><button type="button">reveal email</button></span></p>
     </footer>
+    <script>
+      (() => {
+        const reverse = (value) => [...value].reverse().join("");
+        document.querySelectorAll(".email-reveal").forEach((node) => {
+          const button = node.querySelector("button");
+          if (!button) return;
+
+          button.addEventListener("click", () => {
+            const email = reverse(node.dataset.user) + "@" + reverse(node.dataset.domain);
+            const link = document.createElement("a");
+            link.href = "mailto:" + email;
+            link.textContent = email;
+            node.replaceChildren(link);
+          }, { once: true });
+        });
+      })();
+    </script>
   </body>
 </html>

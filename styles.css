@@ -565,6 +565,24 @@ h3 {
   border-top: 1px solid var(--line);
 }
 
+.email-reveal button {
+  appearance: none;
+  border: 0;
+  border-bottom: 1px solid rgba(159, 61, 31, 0.42);
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  text-transform: lowercase;
+}
+
+.email-reveal button:hover {
+  color: var(--accent);
+  border-bottom-color: currentColor;
+}
+
 @media (max-width: 860px) {
   .hero {
     grid-template-columns: 1fr;
