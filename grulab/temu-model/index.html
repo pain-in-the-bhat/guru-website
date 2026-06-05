@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temu Deal Machine | grulab</title>
+    <meta
+      name="description"
+      content="A mischievous interactive model of Temu-style commerce: pull the levers, stamp the verdict, find who pays for the impossible deal."
+    >
+    <link rel="canonical" href="https://grulab.xyz/temu-model/">
+    <meta property="og:title" content="Temu Deal Machine">
+    <meta
+      property="og:description"
+      content="Pull the levers on a Temu-style business model and see who pays for the impossible deal."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://grulab.xyz/temu-model/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-grid" aria-hidden="true"></div>
+
+    <header class="site-bar">
+      <a class="brand" href="../index.html">grulab</a>
+      <nav aria-label="Lab navigation">
+        <a href="#machine">Machine</a>
+        <a href="#sources">Sources</a>
+        <a href="../../index.html">gurubhat</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="title">
+        <div class="hero-copy">
+          <p class="eyebrow">small experiments in useful mischief / 001</p>
+          <h1 id="title">The Temu Deal Machine</h1>
+          <p class="dek">
+            Pull the levers until the basket looks illegal. Then ask the only
+            question that matters: who is quietly paying for this nonsense?
+          </p>
+        </div>
+
+        <aside class="primer" aria-label="Temu primer">
+          <span>new here?</span>
+          <p>
+            Temu’s pitch is basically “Team Up, Price Down”: pool demand, source
+            closer to factories, compress the retail stack, and make the price
+            tag look like it escaped supervision.
+          </p>
+        </aside>
+      </section>
+
+      <section class="machine-shell" id="machine" aria-label="Temu deal machine">
+        <section class="deal-machine" aria-label="Interactive deal machine">
+          <div class="machine-top">
+            <div>
+              <p class="eyebrow">the verdict</p>
+              <h2 id="verdict">Coupon Theater</h2>
+            </div>
+            <div class="stamp" id="grade">C</div>
+          </div>
+
+          <div class="receipt" aria-label="Deal receipt">
+            <div class="receipt-row">
+              <span>factory floor</span>
+              <strong id="factoryValue">$16</strong>
+            </div>
+            <div class="receipt-row">
+              <span>sticker price</span>
+              <strong id="priceValue">$32</strong>
+            </div>
+            <div class="receipt-row danger">
+              <span>bribes + ads</span>
+              <strong id="growthSpendValue">$13</strong>
+            </div>
+            <div class="receipt-row warning">
+              <span>boxes + border</span>
+              <strong id="opsValue">$10</strong>
+            </div>
+            <div class="receipt-total">
+              <span>per-order mood</span>
+              <strong id="marginValue">-$17</strong>
+            </div>
+          </div>
+
+          <div class="meters" aria-label="Machine meters">
+            <article class="meter price-meter">
+              <div class="meter-head">
+                <span>price shock</span>
+                <strong id="priceGap">42%</strong>
+              </div>
+              <div class="meter-track"><span id="priceFill"></span></div>
+              <p>The customer's “wait, how is this legal?” meter.</p>
+            </article>
+            <article class="meter pain-meter">
+              <div class="meter-head">
+                <span>order pain</span>
+                <strong id="painScore">71%</strong>
+              </div>
+              <div class="meter-track"><span id="painFill"></span></div>
+              <p>The business model quietly developing a migraine.</p>
+            </article>
+          </div>
+
+          <p class="machine-read" id="modelRead">
+            You made the bargain sing, but it is being autotuned by subsidy and
+            ads. Cute until the repeat orders fail to show up.
+          </p>
+        </section>
+
+        <aside class="control-desk" aria-label="Control desk">
+          <div class="scenario-deck">
+            <p class="eyebrow">event cards</p>
+            <button type="button" data-preset="growth">
+              <strong>Growth Blitz</strong>
+              <span>move fast and invoice later</span>
+            </button>
+            <button type="button" data-preset="balanced">
+              <strong>Adult Mode</strong>
+              <span>the CFO has entered the chat</span>
+            </button>
+            <button type="button" data-preset="tariff">
+              <strong>Tariff Hit</strong>
+              <span>customs discovers the business model</span>
+            </button>
+            <button type="button" data-preset="local">
+              <strong>Local Stock</strong>
+              <span>Amazon cosplay, now with leases</span>
+            </button>
+          </div>
+
+          <div class="event-note" id="presetNote">
+            The app is cheap, the ads are loud, and the spreadsheet is asking
+            for a cigarette.
+          </div>
+
+          <div class="lever-bank">
+            <p class="eyebrow">arcade levers</p>
+            <div id="sliders"></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="sources" id="sources" aria-labelledby="sources-title">
+        <p class="eyebrow">fine print</p>
+        <h2 id="sources-title">Toy model. Not investment research. Not a subpoena magnet.</h2>
+        <p>
+          The numbers are illustrative. The useful bit is the operating logic:
+          factory-direct price advantage can be juiced by subsidies and ads, but
+          logistics, policy, returns, and inventory eventually ask to be paid in
+          real money.
+        </p>
+        <ul>
+          <li>
+            <a href="https://investor.pddholdings.com/financial-information/annual-reports/">PDD Holdings annual reports</a>
+            for public marketplace descriptions and revenue categories.
+          </li>
+          <li>
+            <a href="https://www.cbp.gov/newsroom/national-media-release/cbp-ready-enforce-end-de-minimis-loophole-securing-borders-and">U.S. CBP</a>
+            and
+            <a href="https://www.whitehouse.gov/presidential-actions/2025/07/suspending-duty-free-de-minimis-treatment-for-all-countries/">White House</a>
+            releases for de minimis policy context.
+          </li>
+          <li>
+            <a href="https://techcrunch.com/2025/05/03/temu-stops-shipping-products-from-china-to-the-u-s/">Public reporting</a>
+            on Temu’s shift toward U.S.-stocked products.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

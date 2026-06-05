@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>grulab</title>
+    <meta
+      name="description"
+      content="Small experiments in useful mischief: interactive models, business games, and suspicious little strategy toys by Gurudas Bhat."
+    >
+    <link rel="canonical" href="https://grulab.xyz/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    >
+    <style>
+      :root {
+        --bg: #0b0a08;
+        --panel: #17140f;
+        --line: #383126;
+        --text: #fff3dc;
+        --muted: #b4a893;
+        --green: #d8ff3e;
+        --amber: #ffb000;
+        --red: #ff4f7b;
+        --cyan: #35d9c8;
+        --mono: "Space Mono", ui-monospace, monospace;
+        --display: "Bricolage Grotesque", system-ui, sans-serif;
+        --sans: "Bricolage Grotesque", system-ui, sans-serif;
+        color-scheme: dark;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          linear-gradient(90deg, rgba(255, 243, 220, 0.045) 1px, transparent 1px),
+          linear-gradient(rgba(255, 243, 220, 0.035) 1px, transparent 1px),
+          linear-gradient(135deg, rgba(255, 79, 123, 0.08), transparent 36%, rgba(53, 217, 200, 0.05) 74%, transparent),
+          var(--bg);
+        background-size: 44px 44px;
+        color: var(--text);
+        font-family: var(--sans);
+      }
+
+      a {
+        color: inherit;
+      }
+
+      main {
+        width: min(1120px, calc(100% - 36px));
+        margin: 0 auto;
+        padding: 42px 0 72px;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        margin-bottom: 92px;
+        font-family: var(--mono);
+        font-size: 0.76rem;
+      }
+
+      .brand {
+        color: var(--green);
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .home {
+        color: var(--muted);
+        text-decoration-color: rgba(216, 255, 62, 0.36);
+        text-underline-offset: 0.22em;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(260px, 420px);
+        gap: 48px;
+        align-items: end;
+      }
+
+      h1 {
+        max-width: 860px;
+        margin: 0;
+        font-family: var(--display);
+        font-size: clamp(4rem, 11vw, 8.8rem);
+        font-weight: 800;
+        letter-spacing: 0;
+        line-height: 0.86;
+      }
+
+      .dek {
+        max-width: 690px;
+        margin: 26px 0 0;
+        color: var(--muted);
+        font-size: clamp(1.1rem, 2vw, 1.45rem);
+        line-height: 1.45;
+      }
+
+      .lab-card {
+        display: block;
+        min-height: 280px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(17, 19, 15, 0.88);
+        padding: 24px;
+        text-decoration: none;
+        transition:
+          border-color 180ms ease,
+          transform 180ms ease,
+          background 180ms ease;
+      }
+
+      .lab-card:hover {
+        transform: translateY(-3px);
+        border-color: rgba(216, 255, 62, 0.72);
+        background: rgba(23, 20, 15, 0.96);
+      }
+
+      .label {
+        color: var(--amber);
+        font-family: var(--mono);
+        font-size: 0.68rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        margin: 56px 0 14px;
+        font-family: var(--display);
+        font-size: clamp(1.8rem, 3.5vw, 3.2rem);
+        font-weight: 800;
+        letter-spacing: 0;
+        line-height: 0.98;
+      }
+
+      .lab-card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .chip-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 28px;
+      }
+
+      .chip {
+        border: 1px solid #43392a;
+        border-radius: 999px;
+        padding: 7px 10px;
+        color: var(--text);
+        font-family: var(--mono);
+        font-size: 0.66rem;
+      }
+
+      @media (max-width: 760px) {
+        .hero {
+          grid-template-columns: 1fr;
+        }
+
+        h1 {
+          font-size: clamp(3.4rem, 20vw, 6.2rem);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <a class="brand" href="index.html">grulab</a>
+        <a class="home" href="../index.html">gurubhat.xyz</a>
+      </header>
+
+      <section class="hero" aria-labelledby="title">
+        <div>
+          <p class="label">small experiments in useful mischief</p>
+          <h1 id="title">Make the model confess.</h1>
+          <p class="dek">
+            Interactive business toys for poking at strategy, AI, operations,
+            and other respectable ideas until they say the quiet part out loud.
+          </p>
+        </div>
+
+        <a class="lab-card" href="temu-model/index.html">
+          <span class="label">live lab 001</span>
+          <h2>Temu Deal Machine</h2>
+          <p>
+            Make the basket look illegal, then find out whether the magic comes
+            from supply chain, subsidy, or accounting with a fake moustache.
+          </p>
+          <div class="chip-row" aria-label="Topics">
+            <span class="chip">supply chain</span>
+            <span class="chip">marketplace</span>
+            <span class="chip">unit economics</span>
+          </div>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
