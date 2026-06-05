@@ -1,0 +1,29 @@
+# gurubhat
+
+> A public notebook by Gurudas Bhat, trying to notice the present before it becomes obvious.
+
+This site contains essays on technology, ambition, internet culture, work, status, AI, product, and the strange ways the present enters ordinary life.
+
+## Main Pages
+
+- [Home](https://gurubhat.xyz/): Latest essays and working threads.
+- [About](https://gurubhat.xyz/about.html): About Gurudas Bhat and the site.
+- [Proof of Work](https://gurubhat.xyz/proof-of-work.html): Work, education, and signals behind the writing.
+- [Shelf](https://gurubhat.xyz/shelf.html): Books and inputs behind the site.
+- [RSS](https://gurubhat.xyz/feed.xml): Feed of published essays.
+
+## Essays
+
+- [The Social Cost of Not Knowing](https://gurubhat.xyz/posts/the-social-cost-of-not-knowing.html): On ChatGPT, Amma, and the private relief of asking questions without being judged.
+- [In a Very Chinese Time of My Life](https://gurubhat.xyz/posts/in-a-very-chinese-time-of-my-life.html): On DeepSeek, dramas, supply chains, and the strange intimacy of geopolitical fascination.
+- [The Aesthetics of Intelligence](https://gurubhat.xyz/posts/aesthetics-of-intelligence.html): On knowledge graphs, terminal screenshots, and the market for looking like you are thinking.
+- [Formula One Cars for Grocery Runs](https://gurubhat.xyz/posts/formula-one-cars-for-grocery-runs.html): On overbuilt AI workflows, productivity theatre, and why impressive machinery still needs somewhere meaningful to go.
+- [smolgate, or How I Learnt to Be Okay With Smaller Context Windows](https://gurubhat.xyz/posts/smolgate.html): On context windows, hoarding, and the fantasy that more memory equals better thought.
+- [The Goldilocks Conundrum for AI Enthusiasts](https://gurubhat.xyz/posts/goldilocks-conundrum.html): On model maximalism, capability theatre, and learning when not to call the CEO to decide lunch.
+- [Cheap Intelligence Changes Human Psychology More Than Smarter Intelligence](https://gurubhat.xyz/posts/cheap-intelligence.html): On token anxiety, abundant retries, and the weird freedom of not treating every prompt like a prayer.
+- [The System That Eats Itself](https://gurubhat.xyz/posts/the-system-that-eats-itself.html): On context drift, compaction, and why the human still has to hold the telos.
+- [Tsa](https://gurubhat.xyz/posts/tsa.html): On Tibetan monks, sycophantic AI, and why your LLM is too agreeable to be useful.
+- [The Harness Is the Moat](https://gurubhat.xyz/posts/the-harness-is-the-moat.html): On AI, knowledge work, and a Sunday night in Bangalore that got away from me.
+- [What We Lost on the Way to Faster](https://gurubhat.xyz/posts/what-we-lost-on-the-way-to-faster.html): On typing, voice input, and the friction that was doing something.
+- [Usage Anxiety](https://gurubhat.xyz/posts/usage-anxiety.html): Like range anxiety, but for your thinking.
+- [Hello, world](https://gurubhat.xyz/posts/hello-world.html): A short first note about what this blog is for.
