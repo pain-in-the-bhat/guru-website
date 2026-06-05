@@ -17,13 +17,18 @@ The `CNAME` file is already set to `gurubhat.xyz`.
 
 ## Design identity
 
-The site follows the identity brief in `design-identity-brief.md`: dark,
-editorial, typographic, restrained, and writing-first. The title is the hero.
-There are no thumbnails, cards, sidebars, or subscription prompts.
+The site is editorial, typographic, restrained, and writing-first. The current
+surface uses a warm paper palette, serif-led hierarchy, sparse navigation, and
+no thumbnails, sidebars, or subscription prompts.
 
 ## Add a post
 
 1. Copy `posts/hello-world.html` to a new file in `posts/`.
 2. Update the title, date, canonical URL, and body.
-3. Add the new post to `index.html`.
-4. Add the new post to `feed.xml`.
+3. Add the post metadata to `POSTS` in `scripts/build-site.py`.
+4. Run `python3 scripts/build-site.py`.
+5. Add the post to the homepage manually if it belongs in the latest list or
+   start-here trail.
+
+The script regenerates `writing.html`, `feed.xml`, `sitemap.xml`, `llms.txt`,
+post-to-post navigation, and article JSON-LD.
