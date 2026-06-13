@@ -15,6 +15,7 @@ This site contains essays on technology, ambition, internet culture, work, statu
 
 ## Essays
 
+- [Tara and the Absence of Wu Wei](https://gurubhat.xyz/posts/tara-and-the-absence-of-wu-wei.html): On building Tara, forcing OpenCode into the wrong shape, and realizing the missing thing was not a better interface but a reason for the interface to exist.
 - [The Social Cost of Not Knowing](https://gurubhat.xyz/posts/the-social-cost-of-not-knowing.html): On ChatGPT, Amma, and the private relief of asking questions without being judged.
 - [In a Very Chinese Time of My Life](https://gurubhat.xyz/posts/in-a-very-chinese-time-of-my-life.html): On DeepSeek, dramas, supply chains, and the strange intimacy of geopolitical fascination.
 - [The Aesthetics of Intelligence](https://gurubhat.xyz/posts/aesthetics-of-intelligence.html): On knowledge graphs, terminal screenshots, and the market for looking like you are thinking.

@@ -49,6 +49,15 @@ class Post:
 
 POSTS = [
     Post(
+        "tara-and-the-absence-of-wu-wei",
+        "Tara and the Absence of Wu Wei",
+        "2026-06-13",
+        "build note",
+        "6 min read",
+        "build note",
+        "On building Tara, forcing OpenCode into the wrong shape, and realizing the missing thing was not a better interface but a reason for the interface to exist.",
+    ),
+    Post(
         "the-social-cost-of-not-knowing",
         "The Social Cost of Not Knowing",
         "2026-06-05",
